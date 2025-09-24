@@ -1,0 +1,9 @@
+data/
+data;C/
+hello.py
+database/
+test.py
+trial.sh
+myenv/
+__pycache__/
+.env;C
