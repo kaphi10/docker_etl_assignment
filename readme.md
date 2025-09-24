@@ -15,11 +15,14 @@ The docker execution was written in a bash query. .sh file.
 ####  Step 3
 - Write a bash query that help to execute docker commands 
 Eg  
-- Create a docker postgres container using postgres 1.3 image  
+- Create a docker postgres container using postgres 13 image  
 - Create a Network
 - Create an Etl image create Etl container
-- Connect the Etl contain  
+- Connect the postgres container and Etl container to the created network 
 > On the bash terminal   
 Run  
 chmod +x file.sh (convert the.sh file to executable)  
 ./file.sh 
+
+> Note  
+The bash script always remove existing container and if any before creating new one that can be used for the current process  
